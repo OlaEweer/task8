@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faBehance } from '@fortawesome/free-brands-svg-icons'
@@ -22,23 +21,23 @@ export default function Footer() {
         </div>
               <div className='footer_2'>
                   <div>
-          <p className="footer_title sale"> Sales</p>contact@focal-x.com
+          <p className="footer_title"> Sales</p>contact@focal-x.com
           <a href="tel:+963 953 666 056">+963 953 666 056 </a>
           <p className="footer_title public">Public Relations</p>
           pr@focal-x.com <a href="tel:+963 953 666 052">+963 953 666 052</a>
         </div>
 
         <div>
-          <p className="footer_title customer"> Customer Support</p>
+          <p className="footer_title "> Customer Support</p>
           <p>
             
             info@focal-x.com
             <a href="tel:+963 953 666 054">+963 953 666 054</a>
           </p>
-          <p className="footer_title human">Human Resources</p>hr@focal-x.com
+          <p className="footer_title ">Human Resources</p>hr@focal-x.com
         </div>
         <div>
-          <p className="footer_title useful"> Useful Links</p>
+          <p className="footer_title "> Useful Links</p>
           Clients & Partners 
           Check Certificat ID
           Check for employee
@@ -77,15 +76,11 @@ export default function Footer() {
            
         <p className="Right_Reserved">
         &copy; 2021 - 2023 focal X L.L.C All Right Reserved</p>
-        <span class="liner"></span>
+        <span className="liner"></span>
        </div>
           </footer>
-      {/* <footer className=' '>
       
-        </footer> */}
-      
-      
-    
+          
          
           </>
   )
