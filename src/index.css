@@ -174,7 +174,7 @@ right: 130px;
 }
 
 
-.ser_1 .card-title::after{
+.ser_1 .service_line::after{
     content: "";
     height: 3px;
     width: 134px;
@@ -227,7 +227,7 @@ right: 130px;
     margin-bottom: 93px;
     height: 500px;
 }
-.ser_2 .card-title::after{
+.ser_2 .service_line::after{
     content: "";
     height: 3px;
     width: 134px;
