@@ -1,0 +1,495 @@
+.logo h6 {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 3px;
+}
+
+.nav-link,
+.dropdown-item {
+    color: #938c8c;
+    font-size: 14px;
+}
+
+.navbarComp {
+    background: #ffffff;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.nav-link:hover {
+    color: #938c8c;
+}
+
+.nav-link:active {
+    color: black;
+    border-bottom: 1px solid #ff8500;
+}
+
+.hero_container {
+    display: flex;
+    padding: 30px;
+    height: 100vh;
+}
+
+.content .title {
+    color: #ff8500;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.content .content {
+    font-weight: bold;
+    font-size: 18px;
+       width: 70%;;
+}
+
+.gameboy .game {
+    position: absolute;
+    bottom: 50px;
+    right: 27px;
+    width: 300px;
+}
+
+.gameboy .pattern {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    z-index: -1;
+}
+
+.gameboy .line {
+    position: absolute;
+    top: 291px;
+    right: 147px;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.start {
+    bottom: 232px;
+    right: 421px;
+    position: absolute;
+    color: #ff8500;
+    font-size: 40px;
+}
+
+
+/* .gameboy ::before{
+content: "start";
+position: absolute;
+top: 300px;
+right: 130px;
+} */
+
+.footer-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-bottom: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon1 {
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+}
+
+.chevron-container {
+    text-align: center;
+}
+
+.oval-shape {
+    width: 17px;
+    height: 26px;
+    background-color: #ff8500;
+    border: 2px solid #fff;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 53px;
+}
+
+/* .footer-hero .scroll::after {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 26px;
+    border: 2px solid #fff;
+    border-radius: 17px;
+    top: -5px;
+    left: 370px;
+} */
+
+.services_container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services_container h2 {
+    margin: 0 auto;
+}
+
+.service {
+    width: 400px;
+    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+    padding: 30px 0 42px 33px;
+    position: relative;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom: 93px;
+    height: 500px;
+}
+
+.ser_1 {
+    border-radius: 44px 0px 0px 44px;
+    /* width: 600px; */
+    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+    padding: 30px 0 42px 33px;
+    position: relative;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom: 93px;
+    height: 500px;
+}
+
+
+.ser_1 .card-title::after{
+    content: "";
+    height: 3px;
+    width: 134px;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    background-color:#ff8500;
+}
+
+
+
+.ser_1 .card-body .img_1 {
+    position: absolute;
+    z-index: -1;
+    top: -90px;
+    left: 45px;
+    width: 28rem;
+}
+
+.ser_2 .card-body .img_1 {
+    position: absolute;
+    z-index: -1;
+    top: -90px;
+    left: 46px;
+    width: 28rem;
+}
+
+.ser_1 .card-body .img_2 {
+    position: absolute;
+    bottom: 43px;
+    right: 10px;
+    width: 15rem;
+}
+
+.ser_2 .card-body .img_2 {
+    position: absolute;
+    bottom: 43px;
+    right: 10px;
+    width: 15rem;
+}
+
+.ser_2 {
+    border-radius: 0px 44px 44px 0px;
+    /* width: 600px; */
+    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+    padding: 30px 0 42px 33px;
+    position: relative;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom: 93px;
+    height: 500px;
+}
+.ser_2 .card-title::after{
+    content: "";
+    height: 3px;
+    width: 134px;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    background-color:#a513ff
+}
+.hosting {
+    margin-top: 27px;
+    background-color: #282828;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hosting_container h2 {
+    text-align: center;
+    margin-bottom: 39px;
+    color: #fffcff;
+    font-size: 30px;
+    position: relative;
+}
+
+.hosting_card1,
+.hosting_card2,
+.hosting_card3,
+.hosting_card4 {
+    background-color: #fff;
+    font-weight: 500;
+    border-radius: 26px;
+    width: 19vw;
+    height: 27rem;
+    padding:30px 0px 35px 0px;
+    position: relative;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+}
+
+.hosting_card1::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 22px;
+    width: 100%;
+    background-color: #ff8500;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hosting_card2::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 22px;
+    width: 100%;
+    background-color: #a513ff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hosting_card3::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 22px;
+    width: 100%;
+    background-color: #71aa27;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hosting_card4::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 22px;
+    width: 100%;
+    background-color: #1d5edd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body button {
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 15px;
+    background-color: #fff;
+
+    margin: 15px 25px 0 1px;
+    border-radius: 10px;
+}
+
+.hosting_card1 button {
+    color: #ff8500;
+    border: 2px solid #ff8500;
+}
+
+.hosting_card2 button {
+    color: #a513ff;
+    border: 2px solid #a513ff;
+}
+
+.hosting_card3 button {
+    color: #71aa27;
+    border: 2px solid #71aa27;
+}
+
+.hosting_card4 button {
+    color: #1d5edd;
+    border: 2px solid #1d5edd;
+}
+
+.price {
+    padding: 15px 0px;
+}
+
+.con {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 37px;
+    flex-wrap: wrap;
+}
+
+
+
+.gameboy .game_mobile {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    right: 27px;
+    width: 15rem;
+ }
+.footer_mobile{display: none;}
+
+
+
+
+
+footer{
+    color: #ffffff;
+    background-color: #282828;
+}
+.footer_1{
+  display: flex;
+
+    justify-content: space-between;
+    padding-left: 33px;
+    padding-right: 33px;
+    font-size: 13px;
+    width: 100%;
+  
+}
+.footer_img{
+  width: 75px;
+}
+.agency{font-size: 12px;
+}
+.footer_logo{    width: 60%;}
+.footer_title{
+  margin-top:20px;
+  margin-bottom: 0;
+font-size: 15px;}
+  /* margin-top: 42px;} */
+
+footer a{
+    text-decoration: none;
+    color: white;
+    }
+
+    .footer_2{
+      display: flex;     
+      justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    .footer_2 div{
+    width: 20%;}
+
+    .footer_icon{
+      width: 100% !important;
+      display: flex;
+      justify-content: space-between;
+      color: black;
+    }
+
+    .Right_Reserved{
+      
+      width: 100%;
+      height: 100%; 
+    }
+    .liner{
+
+        width: 127rem;
+        height: 1px;
+        display: inline-block;
+        background-color: #fffcff;
+        margin-left: 50px;
+        
+    }
+
+    .footer_Right_Reserved{
+        padding-left: 33px;
+        margin-top: 3rem;
+        display: flex;
+        font-size: 15px;
+
+
+
+    }
+
+
+    @media (min-width:300px) and (max-width: 1199px) {
+        .hosting_card1,
+        .hosting_card2,
+        .hosting_card3,
+        .hosting_card4 {
+          height: 26rem;
+          width: 20rem;
+      }
+      .gameboy .game ,.gameboy .line,.start  {
+         display: none;
+      }
+      .content .content {
+          font-weight: bold;
+          font-size: 11px;
+             width: 70%;;
+      }
+      
+      
+      .footer-hero {
+          font-size: 10px;
+      }
+      .footer {
+          display: none;}
+          .footer_mobile{
+            display: block; 
+            width: 100%;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              z-index: -1;}
+      .icon1 {
+          margin: 7px auto;
+          width: 1rem;
+          height: 1rem;}
+      .card-body button {
+        font-size: 12px;
+              font-weight: bold;
+              text-align: center;
+              width: 26vw;
+              padding: 6px 0px;}
+      
+      
+              .footer_1{
+                  display: block;
+              }
+         
+          .ser_1 .card-body .img_1,.ser_2 .card-body .img_1 {
+           
+            width: 17rem;}
+          
+          }
